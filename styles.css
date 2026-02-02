@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:'Poppins',sans-serif;
+    background: #0a0a0f;
+    color:#ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #0f0f1a;
+
+}
+.logo{
+    font-family: 'Orbitron',sans-serif;
+    font-size: 26px;
+}
+.logo span{
+    color:#00f5ff;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+}
+a{
+    text-decoration: none;
+    color:#ccc;
+    transition:0.3s;
+    
+}
+.navbar a:hover{
+    color:#00f5ff;
+
+}
+.hero{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+    
+}
+.hero h1{
+    font-size: 52px;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero h1 span{
+    color:#00f5ff;
+}
+.hero p{  
+    max-width: 600px;
+    color:#aaa;
+    margin:10px 0px;
+}
+.btn{
+    padding:10px 22px;
+    border-radius: 25px;
+    border: 1px solid #00f5ff;
+
+}
+.primary{
+    background:#00f5ff;
+    color:#000; 
+}
+.secondary{
+    background:transparent;
+    color:#00f5ff; 
+}
+.btn:hover{
+    box-shadow: 0 0 15px #00f5ff;
+}
+.hero-buttons{
+    display: flex;
+    gap:20px;
+}
+.features{
+    padding:60px 80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+
+}
+.card{
+    background: rgba(255, 255, 255, 0.05);
+    padding:40px 30px;
+    border-radius: 15px;
+  
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 245, 255, 0.4);
+}
+.card h3{
+    color: #00f5ff;
+    margin-bottom:10px ;
+}
+.card p{
+    color:#aaa;
+    line-height: 1.6;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0f0f1a;
+    color: #777;
+}

@@ -1,0 +1,83 @@
+*{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+      height:100vh;
+      background-image: url(l.png);
+      background-size: cover;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+}
+form {
+    background:white;
+    padding: 90px 70px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #272727;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #667eea;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #667eea;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #5a67d8;
+}
+
+input[value="Sign in with Google"] {
+    background: #62f424;
+}
+
+input[value="Sign in with Google"]:hover {
+    background: #4adf2c;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
